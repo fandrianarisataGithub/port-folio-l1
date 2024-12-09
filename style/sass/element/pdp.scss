@@ -1,0 +1,15 @@
+.element-pdp {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid $white-500;
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        display: block;
+        border: 2px solid purple;
+        border-radius: 50%;
+    }
+}

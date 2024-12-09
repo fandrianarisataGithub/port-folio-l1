@@ -1,3 +1,63 @@
+a {
+  text-decoration: none;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+main {
+  margin-left: 230px;
+  padding-left: 25px;
+}
+
+.element-pdp {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(241, 251, 243, 0.5);
+}
+.element-pdp img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid purple;
+  border-radius: 50%;
+}
+
+.bloc-navigation {
+  background-color: rgb(141, 224, 17);
+  width: 230px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+.bloc-navigation ul {
+  margin-top: 50px;
+}
+.bloc-navigation ul li:not(:first-child) {
+  margin-top: 20px;
+}
+.bloc-navigation ul li a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: rgb(241, 251, 243);
+  font-weight: 700;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=app.css.map */
